@@ -1,4 +1,9 @@
+server:
+  port: 1010
+
 spring:
+  main:
+    web-application-type: reactive
   cloud:
     gateway:
       server:
