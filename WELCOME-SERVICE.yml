@@ -6,5 +6,5 @@ server:
 management:
   endpoints:
     web:
-      exposer:
-        include: *
+      exposure:
+        include: "*"
